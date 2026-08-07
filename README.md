@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Yūgen — restaurant website concept
 
-# Run and deploy your AI Studio app
+> Status: working fictional portfolio demo.
 
-This contains everything you need to run your app locally.
+A cinematic website concept for an intimate Japanese fine-dining restaurant. All awards, prices, contact details and business claims shown in the demo are fictional presentation content.
 
-View your app in AI Studio: https://ai.studio/apps/d3e68d01-2b03-4ede-aaa9-b1bb29c7b78f
+## Highlights
 
-## Run Locally
+- responsive one-page experience
+- animated navigation and section transitions
+- omakase/kaiseki menu storytelling
+- reservation and private-event interfaces
+- custom Japanese-inspired visual system
 
-**Prerequisites:**  Node.js
+## Stack
 
+React 19, TypeScript, Vite, Tailwind CSS, Motion, React Three Fiber and TSParticles.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Run locally
+
+```bash
+npm ci
+npm run dev
+```
+
+## Verification
+
+`npm run lint` and `npm run build` pass on the current source. The project is a front-end demonstration; reservation actions do not create real bookings.
